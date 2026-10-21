@@ -1,0 +1,25 @@
+# ===============================
+# ByteTrack config for FAST WAGONS
+# ===============================
+
+tracker_type: bytetrack
+
+# --- Detection confidence handling ---
+track_high_thresh: 0.45     # LOWER than default (blur causes confidence drop)
+track_low_thresh: 0.10      # VERY important for motion blur continuity
+new_track_thresh: 0.40      # Start tracks early for fast entry
+
+# --- Track lifecycle ---
+track_buffer: 60            # Keep track alive for ~2 seconds @ 30 FPS
+
+# --- Matching behavior ---
+match_thresh: 0.75          # Allow larger box movement between frames
+
+# --- Frame handling ---
+frame_rate: 30              # Match your video FPS (adjust if needed)
+
+# --- Association ---
+motion: kalman              # Default (don’t touch)
+
+
+fuse_score: true              # Default (don’t touch)

@@ -1,0 +1,42 @@
+[
+  {
+    "image_path": "evaluation/data/frames/number_frame_30.jpg",
+    "wagons": [[266, 228, 1532, 773]],
+    "numbers": [[1090, 600, 1228, 627]]
+  },
+  {
+    "image_path": "evaluation/data/frames/number_frame_60.jpg",
+    "wagons": [[96, 219, 1178, 594]],
+    "numbers": [[876, 408, 1059, 441]]
+  },
+  {
+    "image_path": "evaluation/data/frames/number_frame_90.jpg",
+    "wagons": [[1, 256, 796, 730]],
+    "numbers": [[488, 410, 628, 439]]
+  },
+  {
+    "image_path": "evaluation/data/frames/fault_frame_326.jpg",
+    "wagons": [[376, 9, 821, 640]],
+    "numbers": []
+  },
+  {
+    "image_path": "evaluation/data/frames/fault_frame_980.jpg",
+    "wagons": [[341, 10, 898, 640]],
+    "numbers": []
+  },
+  {
+    "image_path": "wagon number detection/img/R1.png",
+    "wagons": [[0, 0, 2880, 1626]],
+    "numbers": [[1431, 217, 2186, 385]]
+  },
+  {
+    "image_path": "wagon number detection/img/R4.png",
+    "wagons": [[0, 0, 2874, 1620]],
+    "numbers": [[1401, 253, 2315, 447]]
+  },
+  {
+    "image_path": "wagon number detection/img/R5.png",
+    "wagons": [[0, 0, 2880, 1626]],
+    "numbers": [[1925, 269, 2770, 438]]
+  }
+]

@@ -1,0 +1,26 @@
+# Render Blueprint Specification for CargoVision AI Backend
+# Documentation: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: cargovision-ai-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free # 512 MB RAM, 0.1 vCPU, 15-min idle sleep
+    branch: cargovision-main
+    region: oregon
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 7860
+      - key: MAX_UPLOAD_SIZE_MB
+        value: 35
+      - key: MAX_CONCURRENT_JOBS
+        value: 1
+      - key: CORS_ORIGINS
+        value: https://cargovision-ai.pages.dev,http://localhost:5173

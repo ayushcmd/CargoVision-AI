@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ocr_sample_01_f30",
+    "image_path": "evaluation/data/frames/number_frame_30.jpg",
+    "bbox": [1090, 600, 1228, 627],
+    "ground_truth_text": "40039960418",
+    "wagon_type": "BTPN",
+    "railway": "NR",
+    "year": "1999",
+    "check_digit": "8",
+    "notes": "Tank wagon moving on track, medium resolution"
+  },
+  {
+    "id": "ocr_sample_02_f60",
+    "image_path": "evaluation/data/frames/number_frame_60.jpg",
+    "bbox": [876, 408, 1059, 441],
+    "ground_truth_text": "40140998386",
+    "wagon_type": "BTPN",
+    "railway": "SECR",
+    "year": "2009",
+    "check_digit": "6",
+    "notes": "Tank wagon moving on track, high contrast"
+  },
+  {
+    "id": "ocr_sample_03_f90",
+    "image_path": "evaluation/data/frames/number_frame_90.jpg",
+    "bbox": [488, 410, 628, 439],
+    "ground_truth_text": "40140912009",
+    "wagon_type": "BTPN",
+    "railway": "SECR",
+    "year": "2009",
+    "check_digit": "9",
+    "notes": "Tank wagon exiting frame, side angle"
+  },
+  {
+    "id": "ocr_sample_04_r1",
+    "image_path": "wagon number detection/img/R1.png",
+    "bbox": [1431, 217, 2186, 385],
+    "ground_truth_text": "21141123717",
+    "wagon_type": "BOXN-HS",
+    "railway": "SECR",
+    "year": "2011",
+    "check_digit": "7",
+    "notes": "Open high-sided wagon, full static image"
+  },
+  {
+    "id": "ocr_sample_05_r4",
+    "image_path": "wagon number detection/img/R4.png",
+    "bbox": [1401, 253, 2315, 447],
+    "ground_truth_text": "21131123499",
+    "wagon_type": "BOXN-HS",
+    "railway": "NCR",
+    "year": "2011",
+    "check_digit": "9",
+    "notes": "Open wagon, weathered paint"
+  },
+  {
+    "id": "ocr_sample_06_r5",
+    "image_path": "wagon number detection/img/R5.png",
+    "bbox": [1925, 269, 2770, 438],
+    "ground_truth_text": "21141128088",
+    "wagon_type": "BOXN-HS",
+    "railway": "SECR",
+    "year": "2011",
+    "check_digit": "8",
+    "notes": "Open wagon, edge crop"
+  },
+  {
+    "id": "ocr_sample_07_r6",
+    "image_path": "wagon number detection/img/R6.png",
+    "bbox": [0, 216, 886, 397],
+    "ground_truth_text": "21120942179",
+    "wagon_type": "BOXN-HS",
+    "railway": "ECoR",
+    "year": "2009",
+    "check_digit": "9",
+    "notes": "Open wagon, left corner crop"
+  }
+]

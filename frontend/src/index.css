@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cv-bg: #08090B;
+  --color-cv-card: #101113;
+  --color-cv-card-hover: #15171B;
+  --color-cv-card-alt: #0D0E10;
+  --color-cv-border: #242529;
+  --color-cv-border-hover: #383A42;
+  --color-cv-lime: #D4FF35;
+  --color-cv-lime-hover: #C3EE24;
+  --color-cv-lime-muted: rgba(212, 255, 53, 0.12);
+  --color-cv-text: #F7F7F5;
+  --color-cv-text-secondary: #9296A1;
+  --color-cv-text-muted: #5E626E;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #08090B;
+  color: #F7F7F5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #D4FF35;
+  color: #08090B;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #242529;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #383A42;
+}
+
+/* Subtle engineering background pattern */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(36, 37, 41, 0.35) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(36, 37, 41, 0.35) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(146, 150, 161, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

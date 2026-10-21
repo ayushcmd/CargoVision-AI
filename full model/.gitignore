@@ -1,0 +1,13 @@
+Train-Wagon-CV-Project-3
+DeblurredImg
+detection
+OriginalImg
+OCRimage
+wagon_number_dataset
+PP*
+finetuned*
+AnomalyImg
+Anomal*
+deployment
+Video/mp4*
+src/core/__pycache__

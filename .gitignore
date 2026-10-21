@@ -1,0 +1,125 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Node / Frontend build artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.local
+
+# Cache and testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache
+.eslintcache
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SQLite Databases & temporary files
+*.db
+*.sqlite
+*.sqlite3
+!empty_*.db
+
+# Model weights tracked via Git LFS (.gitattributes)
+# Exclude training checkpoints and unneeded artifacts
+runs/
+*.safetensors
+*.ckpt
+*.weights
+
+# Output images and processed datasets
+DeblurredImg/
+OriginalImg/
+OCRimage/
+AnomalyImg/
+Lowlightenhancevideo/
+results/
+runs/
+special dataset from indian railways/
+
+# Video outputs and large captures
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Training checkpoints snapshots (keep best.pt only for active models)
+**/last.pt
+**/last*.pt
+**/*last*.pt
+**/last (1).pt
+
+# Exclude legacy intermediate experiment takes (take6 is used as active model)
+railway_hackathon_take2/
+railway_hackathon_take3/
+railway_hackathon_take4/
+railway_hackathon_take5/
+
+# Exclude standalone legacy models
+wagon number detection/wnd/models/*.pt
+
+# Exclude large generated comparison images (>2MB)
+full model/output2_comparison.png
+wagon number detection/img/Result-detection*.png
+
+# Documentation assets
+!Assests/*.png
+!Assests/*.jpeg
+!Assests/*.jpg
+!Assests/*.pdf

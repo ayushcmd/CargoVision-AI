@@ -1,0 +1,12 @@
+[
+  {
+    "image_path": "evaluation/data/frames/fault_frame_326.jpg",
+    "expected_classes": ["damage", "close_door"],
+    "notes": "Door closure defect and surface damage on moving freight wagon"
+  },
+  {
+    "image_path": "evaluation/data/frames/fault_frame_980.jpg",
+    "expected_classes": ["close_door"],
+    "notes": "Closed door inspection on moving freight wagon"
+  }
+]

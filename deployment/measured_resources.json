@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-10-21T09:27:07Z",
+  "platform": "win32",
+  "stages": {
+    "baseline_process_mb": 34.41,
+    "post_imports": {
+      "rss_mb": 315.58,
+      "delta_mb": 281.17,
+      "time_ms": 12368.9
+    },
+    "models_loaded": {
+      "rss_mb": 579.79,
+      "delta_mb": 264.21,
+      "load_time_ms": 5156.7
+    },
+    "single_image_inference": {
+      "rss_mb": 682.14,
+      "model_a_latency_ms": 536.7,
+      "ocr_latency_ms": 0.0,
+      "wagon_boxes": 3
+    },
+    "video_inference_30_frames": {
+      "frames_processed": 30,
+      "duration_sec": 5.89,
+      "throughput_fps": 5.09,
+      "peak_rss_mb": 744.13
+    }
+  }
+}

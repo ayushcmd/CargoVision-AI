@@ -1,0 +1,38 @@
+# Git & IDE
+.git
+.gitignore
+.gemini
+.vscode
+.idea
+
+# Python
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Frontend build artifacts
+frontend/node_modules
+frontend/dist
+frontend/.vite
+
+# Temporary media & cache
+*.mp4
+*.avi
+*.mov
+*.mkv
+!Assests/*.mp4
+full model/Video/*
+!full model/Video/videoplayback.mp4
+full model/detection/inspections.db*
+full model/DeblurredImg/*
+full model/OriginalImg/*
+full model/OCRimage/*
+full model/detection/*.jpg
+full model/detection/*.png
+
+# Local logs & tests
+*.log
+deployment/measured_resources.json

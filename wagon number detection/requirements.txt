@@ -1,0 +1,4 @@
+ultralytics
+easyocr
+opencv-python
+Pillow==9.5.0

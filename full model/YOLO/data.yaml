@@ -1,0 +1,14 @@
+# data.yaml
+path: ../datasets  # Base path
+
+# You can list multiple folders for training!
+train: 
+  - db-rail/train/images
+  - indian-railway/train/images
+
+val: 
+  - db-rail/valid/images
+  - indian-railway/valid/images
+
+nc: 1
+names: ['wagon']
