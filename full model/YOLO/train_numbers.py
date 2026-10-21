@@ -41,7 +41,7 @@ def remap_and_copy(source_path, dest_path_images, dest_path_labels, target_class
                 f.write('\n'.join(new_lines))
 
 def main():
-    api_key = "u0leKBS1HrAOJli1hvLI"
+    api_key = os.environ.get("ROBOFLOW_API_KEY", "YOUR_API_KEY")
     
     # 3 Specialized Number Datasets
     # We map ALL of them to Class 0: "Number"
